@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify # type: ignore
 from cipher.caesar import CaesarCipher
 app = Flask(__name__)
 
